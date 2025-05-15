@@ -14,7 +14,7 @@ Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>,
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/KL10Admin'>ᴍᴀꜱᴛᴇʀ</a>"""
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/New_MoviesFile'>ᴍᴀꜱᴛᴇʀ</a>"""
 
     SOURCE_TXT = """<b>ɴᴏᴛᴇ:
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ."""
