@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = 14068901
 API_HASH = "d7531af850ce4ed27d8200724fefb6b8"
-BOT_TOKEN = "7732659519:AAGNC7vyKGewhRpiHcjRzAq9CCleXkRkiV8"
+BOT_TOKEN = "8146347740:AAGchYM4gg04kLSigrLNWtpidD5xLZXisiE"
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -42,13 +42,13 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'False')), False)
 
 # Request To Join Added @COLD_ONEZ
-REQ_CHANNEL = environ.get('REQ_CHANNEL', "-1002459724340")
+REQ_CHANNEL = environ.get('REQ_CHANNEL', "-1002098123897")
 REQ_CHANNEL = int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL) else False
 JOIN_REQS_DB = environ.get('DATABASE_URI', "mongodb+srv://shaijata0541:shaijata0541@cluster0.ywb0u.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 # MongoDB information
-SECONDDB_URI = environ.get('SECONDDB_URI', "mongodb+srv://fayis1:fayis1@cluster0.fyqhyoj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://fayis:fayis@cluster0.urqtgm6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+SECONDDB_URI = environ.get('SECONDDB_URI', "mongodb+srv://ajithtron1:ajithtron1@cluster0.nzbo2vh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ajith:ajith@cluster0.hxa8scn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'andi')
 
