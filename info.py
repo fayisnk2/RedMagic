@@ -42,7 +42,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'False')), False)
 
 # Request To Join Added @COLD_ONEZ
-REQ_CHANNEL = environ.get('REQ_CHANNEL', "-1002275387732")
+REQ_CHANNEL = environ.get('REQ_CHANNEL', "-1002844184754")
 REQ_CHANNEL = int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL) else False
 JOIN_REQS_DB = environ.get('DATABASE_URI', "mongodb+srv://shaijata0541:shaijata0541@cluster0.ywb0u.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
@@ -64,7 +64,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+UqzLz8-1lUViNWQ1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+eh8kfm_AKC5mMTAx')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/New_MoviesFile')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001721072515'))
