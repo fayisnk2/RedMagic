@@ -47,10 +47,8 @@ REQ_CHANNEL = int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL)
 JOIN_REQS_DB = environ.get('DATABASE_URI', "mongodb+srv://shaijata0541:shaijata0541@cluster0.ywb0u.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 # MongoDB information
-SECONDDB_URI = environ.get('SECONDDB_URI', "mongodb+srv://ayshaashu:ayshaashu@cluster0.9ac9dr9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0&tls=true
-")
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ayshaashu1:ayshaashu1@cluster0.9ur5kxn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0&tls=true
-")
+SECONDDB_URI = environ.get('SECONDDB_URI', "mongodb+srv://ayshamasterbot:ayshamasterbot@cluster0.wjpa2eg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ayshamasterbot2:ayshamasterbot2@cluster0.wjpa2eg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'andi')
 
