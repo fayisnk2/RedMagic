@@ -42,7 +42,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'False')), False)
 
 # Request To Join Added @COLD_ONEZ
-REQ_CHANNEL = environ.get('REQ_CHANNEL', "-1003851642722")
+REQ_CHANNEL = environ.get('REQ_CHANNEL', "-1003803223593")
 REQ_CHANNEL = int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL) else False
 JOIN_REQS_DB = environ.get('DATABASE_URI', "mongodb+srv://shaijata0541:shaijata0541@cluster0.ywb0u.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
